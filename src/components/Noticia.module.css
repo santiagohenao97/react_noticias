@@ -1,0 +1,43 @@
+
+.card_size{
+    width: 100%;
+    min-height: fit-content;
+    max-height: max-content;
+    margin-bottom: 2rem !important;
+}
+
+.card_title{
+    margin-top: 0;
+    font-size: 1.5rem;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.card_text{
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.card_img{
+    width: 100% !important;
+    height: 20vw !important;
+    object-fit: cover !important;
+}
+
+.card_info{
+    padding-top: 1 !important;
+    width: 100%;
+}
+
+.card_action{
+    padding-top: 0.5 !important;
+}
+
+
